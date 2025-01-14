@@ -12,3 +12,13 @@ Signification possible de .sbc :
     Ce Dockerfile :
         * Configure un utilisateur pour accéder directement à des périphériques matériels (vidéo, port série).
         * Inclut des outils nécessaires à des capteurs et actuateurs typiques des robots embarqués.
+
+
+**MakeFile**
+
+Que fait le makefile ? 
+
+* Build : Construire des images Docker pour PC ou SBC (build-pc, build-sbc).
+* Run : Lancer un conteneur interactif avec accès complet aux périphériques matériels (run).
+* Deploy : Construire une image de déploiement et exécuter une application spécifique (deploy).
+* GPU : Support intégré pour les cartes NVIDIA si détectées (NVIDIA_GPU).
