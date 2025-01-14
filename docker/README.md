@@ -15,6 +15,7 @@ Signification possible de .sbc :
 
 
 **MakeFile**
+Un Makefile est un fichier utilisé par l'outil make pour automatiser des tâches répétitives, principalement dans le domaine de la compilation de logiciels, mais aussi pour d'autres tâches telles que la gestion de conteneurs, le déploiement ou l'exécution de scripts.
 
 Que fait le makefile ? 
 
