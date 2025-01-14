@@ -52,8 +52,13 @@ Explications :
     * Réduire la charge réseau.
     * Garantir que les données restent dans un réseau local.
 
-4. Comparaison avec d'autres DDS
-Implémentation      DDS	                                 Points forts	                            Points faibles
-CycloneDDS	        Performance,                         faible empreinte mémoire	                    Moins de fonctionnalités avancées
-FastDDS	            Support communautaire large,         extensible	                                    Peut être plus lourd
-RTI Connext	        Support commercial,                  fonctionnalités riches	Licence propriétaire,   coûteux
+Comparaison avec d'autres DDS
+
+
+| Implémentation     | DDS     | Points forts	     |
+|---------------|---------------|---------------|
+| CycloneDDS     | Performance,      | faible empreinte mémoire	     |
+| FastDDS    | Support communautaire large     | extensible     |
+| RTI Connext	    |  Support commercial     |  fonctionnalités riches	Licence propriétaire    |
+
+
