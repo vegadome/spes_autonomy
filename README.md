@@ -56,8 +56,9 @@ ros2 launch nav2_bringup rviz_launch.py
         * Sauvegarde la carte dans un fichier nommé map.pgm (fichier d'image) et génère également un fichier map.yaml contenant les métadonnées (résolution, position d'origine, etc.).
        
 * **ros2 launch nav2_bringup bringup_launch.py** :
-        * Lance le framework Nav2 en mode navigation autonome.
-        * Charge la carte sauvegardée (/spesbot/assets/map.yaml) pour permettre au robot de se localiser et de planifier des trajectoires dans cet environnement.
+  * Lance le framework Nav2 en mode navigation autonome.
+  * Charge la carte sauvegardée (/spesbot/assets/map.yaml) pour permettre au robot de se localiser et de planifier des trajectoires dans cet environnement.
+  
 * **ros2 launch nav2_bringup rviz_launch.py**:
   * Relance RViz2 pour visualiser le robot pendant qu'il navigue.
   * Pour voir (la carte utilisée par le robot, les trajectoires planifiées pour atteindre les points d'intérêt, les obstacles détectés)
