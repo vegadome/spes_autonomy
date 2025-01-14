@@ -6,3 +6,9 @@ Signification possible de .sbc :
 
 * Small Board Computer (SBC) :
   * SBC pourrait faire référence à des ordinateurs monocartes comme Raspberry Pi, NVIDIA Jetson Nano, ou autres. Le fichier Dockerfile.sbc serait donc une version adaptée pour un environnement ARM ou un système embarqué.
+
+ * Pourquoi ce fichier semble adapté aux SBC ?
+   * Les SBC comme les Raspberry Pi ou NVIDIA Jetson ont souvent des contraintes matérielles spécifiques (architecture ARM, accès direct aux périphériques).
+    Ce Dockerfile :
+        * Configure un utilisateur pour accéder directement à des périphériques matériels (vidéo, port série).
+        * Inclut des outils nécessaires à des capteurs et actuateurs typiques des robots embarqués.
