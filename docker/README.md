@@ -35,13 +35,15 @@ Caractéristiques principales de CycloneDDS :
 Le fichier que vous avez montré est une partie de la configuration de CycloneDDS, qui permet de personnaliser son comportement.
 Contenu de votre fichier :
 
+```
 <CycloneDDS>
     <Domain>
         <General>
-            <DontRoute></DontRoute>
+            <DontRoute>true</DontRoute>
         </General>
     </Domain>
 </CycloneDDS>
+```
 
 Explications :
 
