@@ -38,7 +38,7 @@ Contenu de votre fichier :
 <CycloneDDS>
     <Domain>
         <General>
-            <DontRoute>true</DontRoute>
+            <DontRoute></DontRoute>
         </General>
     </Domain>
 </CycloneDDS>
